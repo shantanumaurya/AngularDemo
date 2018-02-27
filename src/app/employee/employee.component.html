@@ -1,0 +1,25 @@
+<table>
+    <tr>
+        <th [attr.colspan]="colspan">Employee Details</th>
+
+    </tr>
+    <tr>
+        <td>Employee Name</td>
+        <td>{{empname}} </td>
+    </tr>
+    <tr>
+        <td>DOB</td>
+        <td>{{empdob}}</td>
+    </tr>
+    <tr>
+        <td>GENDER</td>
+        <td>{{empgender}}</td>
+    </tr>
+    <tr>
+        <td>AGE</td>
+        <td>{{empage}}</td>
+    </tr>
+    <tfoot>
+    <button [class]="applyClass" [class.boldClass]="!applyBold">Click Me </button>
+</tfoot>
+</table>
